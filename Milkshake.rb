@@ -33,11 +33,9 @@ class Milkshake
 		@ingredients.push(ingredient)
 	end
 	def price_of_milkshake
-		counter = 0
 		price_of_milkshake = @base_price
 			@ingredients.each do |ingredient|
 		price_of_milkshake += ingredient.price
-		# call the price of milkshake += to the ingredient.price to give the total price.
 	end
 	 price_of_milkshake
 	end
@@ -52,8 +50,23 @@ class Ingredient
 		end
 	end
 
-
-
+class Shopping_cart
+	def initialize
+		@milkshakes = []
+	end
+	def add_milkshakes(milkshake)
+		@milkshakes.push(milkshake)
+	end
+	def total_price_of_milkshakes
+		total_price = 0
+		@milkshakes.each do |milkshake|
+		 total_price += milkshake.price_of_milkshake
+		end
+			total_price
+	end
+end
+     
+    
 strawberry = Ingredient.new("Strawberry", 2)
 sprinkles = Ingredient.new("Sprinkles", 2)
 chris_milkshake = Milkshake.new
@@ -62,7 +75,14 @@ chris_milkshake.ingredient_list(sprinkles)
 chris_milkshake.price_of_milkshake
 
 
+john_milkshake = Milkshake.new
 
+john_milkshake.ingredient_list(strawberry)
+john_milkshake.ingredient_list(sprinkles)
+john_milkshake.price_of_milkshake
 
+cart = Shopping_cart.new
+cart.add_milkshakes(chris_milkshake)
+cart.add_milkshakes(john_milkshake)
 
-
+cart.total_price_of_milkshakes
