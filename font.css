@@ -1,0 +1,67 @@
+h1 {
+	font-family: Aclonica;
+	font-size: 30px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 0px;
+	text-align: right;
+}
+h3 {
+	font-family: Voltaire;
+	font-size: 14px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+
+
+}
+p {
+	font-family: Voltaire;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+
+}
+table {
+	font-family: Voltaire;
+	font-size: 18px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 30px;
+	color: white;
+}
+.articlediv:hover {
+    background-color: white;
+}
+
+footer {
+  background-color: gray;
+  padding: 50px 50px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+}
+/*footer {
+	font-family: Voltaire;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 18.5714px;*/
+}
+article {
+	font-family: Voltaire;
+	font-size: 15px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;

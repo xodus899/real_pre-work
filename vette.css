@@ -1,0 +1,30 @@
+table {
+	background-color: yellow;
+}
+
+ .bottom {
+	background-color: lime;
+}
+
+body {
+	background-color: blue;
+}
+
+img {
+    float: right;
+}
+
+table {
+	float: right;
+}
+
+article:hover{
+	background-color: lime;
+}
+img {
+  box-shadow: 10px 5px 5px white;
+}
+
+table {
+	box-shadow: 10px 5px 5px white;
+}

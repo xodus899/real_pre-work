@@ -1,0 +1,106 @@
+/*p {
+  background-color: orange;
+}*/
+/*this will change all of the p <p>*/
+
+
+/*table {
+  background-color: lime;*/
+  
+
+
+.author {
+	font-size: 45px;
+}
+/*
+with adding a . (period) before the class set in your code ... inside the p(paragragh) is called a class sector
+<p class="nice">
+this will only change that particular paragrah*/
+
+footer {
+	background-color: blue;
+}
+
+body {
+	background-color: purple;
+}
+
+#final  {
+	background-color: gray;
+}
+
+article p {
+  background-color: black;
+}
+
+.articlediv {
+	background-color: orange;
+}
+
+header:hover{
+	background-color: yellow;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+` color: orange;
+}
+
+a:hover {
+  color: red;
+}
+
+/*img {
+    float: left;
+}*/
+/*
+float is used to wrap text that doesnt fit or to stagger imgs*/
+
+
+/*example of using span to change color of text in html...
+add <span style = "color; choice of color"> 
+to the text then make sure to close </span>
+<p><span style= "color: lime">Minor modifications to the G8 include:</span>*/
+
+
+
+
+/*using ID selectors... inside the <p> you can put 
+id = "whatever class you choose" . then in your text editor
+use a #"whatever class you chose" {
+	background-color: whatever color;
+}
+to change only this specific to the color you chose*//*
+It's best that you use very specific names for your ids since they are for 
+just one element.
+*/
+
+/*You can have multiple sectors ex: #final , span and it will apply to all 
+of the span tags and the final tag created.*/
+
+
+
+/*
+COLORS
+
+Using a keyword.
+
+Using the rgb (short for red/green/blue) 
+function with three numbers from 0 to 255 
+representing red, green and blue values, respectively.
+
+Using a hexadecimal RGB value. 
+Hexadecimal is way of representing numbers. 
+Each digit can go from 0-9 and then from a-f, 
+where a-f represent 10-15 (normally we would need two digits to represent these values). 
+For colors we use 6 digits: three pairs of digits with pairs 
+representing red, green and blue values, respectively.*/ 
+
+
+
+
+
+

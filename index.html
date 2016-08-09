@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- doctype html notes html 5 -->
+<!-- <html> tag is only supposed to directly contain two tags: <head> and <body> -->
+<!-- <html>
+	<head></head>
+	<body>
+		Hello, world!	
+	</body>
+<html> -->
+<!-- the content you want to display gets put in <body> -->
+<!-- <head> tag ..purpose is to contain meta-data about the document like the title of the page and search keywords -->
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="blog.css">
+		<link rel="stylesheet" type="text/css" href="font.css"/>
+		<title>My Blog</title>
+	</head>
+	<body>
+		<header> 
+			<span style="color:lime">Cars I've Owned</span>
+		</header>
+	<nav>
+		<a href="about_me.html">About me</a>
+	</nav>
+	<div class= "articlediv">
+	<article>
+		
+<img src="./g8.jpeg"/>
+
+		<h1>Pontiac G8</h1>
+		<p><span style= "color:lime">Ranging from 400 to 600 horsepower.These are low 13 second stock in the 1/4 mile.With minor modifications they have become bottom 11 second 1/4 mile cars.</span>
+		<p><span style= "color: yellow">Minor modifications to the G8 include:</span>
+			<ul><span style= "color:lime">
+				<li>Built by me, not Bought</li>
+				<li>Vararam Intake</li>
+				<li>1 3/4" Long tube headers</li>
+				<li>2.5" Exhaust</li>
+				<li>Underdrive Crank Pulley</li>
+				<li>Ported LS3 intake manifold</li>
+				<li>Custom grind 221/232 111lsa cam</li>
+				<li>Dry single fogger nitrous kit</li>
+				<li>3000 PI torque converter</li>
+				<li>Custom tuned using Hptuners</li>
+			</ul></span>
+					<p><em><span style= "color: yellow"> Resulting in a 1.59 60' 11.64 1/4 mile @ 116 mph +1800 DA on a 70 shot.Correcting to 11.2 1/4 mile in desirable air.</em></span>
+		<p> <span class="author" style="color:lime"> <strong>By</strong> <em>Justcd</em> </p></span>
+		<p> <span style="color:lime"><em>Details of the vehicles.</em> </p></span>
+	<table>
+		<thead>
+			<tr><th>Make</th> <th>Model</th> <th>Engine</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>Pontiac</td> <td>G8</td> <td>L76</td></tr>
+			<tr><td>Chevrolet</td> <td>Corvette</td> <td>Ls3</td></tr>
+			<tr><td>Pontiac</td> <td>Gto</td> <td>Ls1/Ls2</td></tr>
+		</tbody>
+	</table>
+	</article>
+</div>
+	<footer>
+		<h3><ul></h3>
+			<li><a href="http://www.facebook.com/unknown">Facebook</a></li>
+			<li><a href="http://www.twitter.com/unknown">Twitter</a></li>
+		</ul>
+		<p id="final">Copyright <em>Justcd<em> 2016 
+		 </footer>
+	</body>
+</html>
+
+
+
+<!-- <img> is to be written as <img src="./filename.jpg"/> to come out correct. do not close img off by itself. -->
+
+<!-- <br> tag is short for line break.. it adds a line as needed and considered a void tag. so it doesnt need to be closed -->
+
+<!-- inside the body is the header, navigation link,article, footer -->
+
+<!-- header = title of the page , nav = link/hyperlink , article is the content you want to include , footer is the bottom informative information or copyright. -->
+
+<!-- This is known as semantic by dividing each  "tag" by their purpose -->
+
+<!-- <title> creates the title for the tab/window of the browser. -->
+<!-- <meta> doesnt require a closing tag. </> .. meta is known as a void -->
+
+
+
+<!-- CSS structure-->
+
+<!-- [selector] {
+  [property] : [value] ;
+} -->
+
+<!-- Three ways to style (color font etc ) CSS
+1. <p style="background-color: grey;">here is where you insert information</p> ... This one only changes this particular paragrah.
+
+2.   <style>
+      p {
+        background-color: grey;
+      }
+    </style>
+
+    This one goes in the <tag> or element <head>
+    Every <p> will get changed to the background chosen.
+
+  3. first you create a .css file with sublime or a text editor in the same folder as your html work.
+  	-inside the folder you use the code below to choose your color,font,etc...
+
+  		p {
+  background-color: grey;
+}
+	- then save the file.
+
+  	-inside the <head> tag you add a <link> with a href to the name of the file.css so it can look up the code.
+
+<link rel="stylesheet" type="text/css" href="blog.css">
+
+  most common way, easier to handle large projects and will change all color on <p> -->
+
+
+
+
+
+
+
+
+
+

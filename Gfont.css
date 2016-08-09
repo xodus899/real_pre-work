@@ -1,0 +1,116 @@
+.search-box {
+ 	position: relative;
+ 	margin-top: 25px;
+    margin-left: 430px;
+    margin-right: 195px;
+    /*background: url(../desktop/mic.png) right no-repeat;*/
+
+    
+}
+h1:hover{
+	padding-right: 621px;
+	padding-left:0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-style: solid;
+	border-width: 1px;
+	margin-right:175px;
+	border:solid 1px lightgray;
+	
+ 
+}
+.right{
+	text-align:right;
+	word-spacing: 10px;
+	
+}
+.image {
+	position: relative;
+	margin-top: 200px;
+	margin-left: 575px;
+	/*margin-right: 225px;*/
+}
+.buttons{
+	background-size:1000px;
+	display:inline;
+	position:static;
+	margin-left:155px;
+}
+input:hover[type=submit]{
+	background:lightgray;border: 1px solid; 
+}
+input[type=submit] {
+ 
+    border:none;
+
+}
+#searchbar {
+	width:615px;
+	height:44px;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+ color: red;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+	background-color: lightgray;
+	height:50px;
+}
+
+footer {
+	position:fixed;
+    bottom:0; left: 0; right:0
+    
+}   
+
+.alignleft{
+	float: left;
+}
+
+.alignright {
+	float:right;
+}
+
+footer {
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 18.5714px;
+	word-spacing: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+a:link {
+  color: black;
+}
+
+a:visited {
+` color: orange;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+
+
+
+
+
+
+
+
+
